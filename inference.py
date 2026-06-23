@@ -12,6 +12,7 @@ def load_tokenizers():
     tokenizer_tgt = Tokenizer.from_file("tokenizer_German.json")
     return tokenizer_src, tokenizer_tgt
 
+
 # Load tokenizers
 tokenizer_src, tokenizer_tgt = load_tokenizers()
 
